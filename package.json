@@ -7,7 +7,11 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@iconify/vue": "^4.1.2",
+    "autoprefixer": "^10.4.20",
     "core-js": "^3.8.3",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.10",
     "vue": "^3.2.13"
   },
   "devDependencies": {
