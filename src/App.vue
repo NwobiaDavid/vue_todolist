@@ -45,6 +45,7 @@
               <div
                 class="p-2 border rounded-lg flex justify-center items-center hover:bg-green-500 hover:border-green-600 hover:text-white duration-200 text-green-500"
               >
+              
                 <Icon
                   v-if="todo.completed"
                   class="border-none outline-none"
@@ -80,7 +81,7 @@
 
 <script>
 import { ref, onMounted } from 'vue';
-import Icon from '@iconify/vue';
+import {Icon} from '@iconify/vue';
 
 export default {
   components: {
